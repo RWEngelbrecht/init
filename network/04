@@ -1,0 +1,3 @@
+#!/bin/bash
+
+route get default | awk '$1 ~ /gateway/{print $2}'

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+netstat -i | awk '!/Name/{print $1}'

@@ -1,0 +1,6 @@
+1603100852597	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/sp/p_0qyzq12s16_7y72lb132kw0000gn/T/rust_mozprofilexySByk"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603100854878	Marionette	INFO	Listening on port 54124
+1603100854928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603100856251	Marionette	INFO	Stopped listening on port 54124

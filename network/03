@@ -1,0 +1,3 @@
+#!/bin/bash
+
+netstat -in | awk '$1 ~ /en0/{print $4; exit}'
