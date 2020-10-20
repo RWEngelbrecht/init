@@ -4,4 +4,4 @@
 ifconfig -a | awk '$1 ~ /en*/'
 # Shows status of network ethernet interfaces with
 # name, Network, MAC address
-netstat -in | awk '$1 ~ /en*/'  
+##netstat -in | awk '$1 ~ /en*/'  

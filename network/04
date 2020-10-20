@@ -1,3 +1,6 @@
 #!/bin/bash
 
 route get default | awk '$1 ~ /gateway/{print $2}'
+# or, if output isn't important:
+# netstat -r
+# will print routing table
