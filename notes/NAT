@@ -1,0 +1,4 @@
+NAT: Network Address Translation
+ipv4 has limited amount of addresses - not enough for all devices that connect to internet.
+NAT translates device's private ip to a public ip.
+ipv6 has no need, as there are way more unique addresses.

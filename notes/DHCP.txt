@@ -1,0 +1,9 @@
+Dynamic Host Configuration Protocol
+- protocol that automatically assigns to a device:
+	- ip address
+	- subnet mask
+	- default gateway
+	- dns server
+- assigns ip as a lease
+	- lease: amount of time ip addr stays assigned
+
