@@ -1,1 +1,3 @@
-ip addr show ens192
+ip a
+
+sudo arp -a
