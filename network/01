@@ -1,3 +1,2 @@
-#!/bin/bash
 
-netstat -i | awk '!/Name/{print $1}'
+netstat -i | awk '!/Kernel|Iface/{print $1}'

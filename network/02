@@ -1,7 +1,1 @@
-#!/bin/bash
-# Show network ethernet interface configurations with
-# name, MAC address, inet + inet6 addresses (on same subnet?)
-ifconfig -a | awk '$1 ~ /en*/'
-# Shows status of network ethernet interfaces with
-# name, Network, MAC address
-##netstat -in | awk '$1 ~ /en*/'  
+ip addr show ens192

@@ -1,1 +1,1 @@
-ipconfig getifaddr en0
+ip r | awk '{print $9}'
