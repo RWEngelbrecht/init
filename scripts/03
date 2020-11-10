@@ -1,3 +1,8 @@
+# Countdown script that accepts date in format
+#					dd <Month> yyyy [hh:mm]
+#							[]: optional
+# and counts down from current day to given date
+
 import datetime, sys, re, time, math, os
 from datetime import date
 
@@ -43,7 +48,11 @@ if len(sys.argv) > 1:
 		hour
 		minutes
 	except:
-		until = datetime.datetime(year, month, day).timestamp()
+		try:
+			until = datetime.datetime(year, month, day).timestamp()
+		except:
+			print("You have to give me more information...")
+			exit()
 	else:
 		until = datetime.datetime(year, month, day, hour, minutes).timestamp()
 
@@ -60,3 +69,5 @@ if len(sys.argv) > 1:
 				sys.exit(0)
 			except SystemExit:
 				os._exit(0)
+
+
