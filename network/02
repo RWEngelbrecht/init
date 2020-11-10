@@ -1,3 +1,5 @@
-ip a
-
+# broadcast address here somewhere
+ip -4 addr
+echo "-------------------------------------------------"
+# ips on same subnet
 sudo arp -a

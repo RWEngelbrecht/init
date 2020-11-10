@@ -1,1 +1,1 @@
-ps aux | grep sshd | awk '{print $2; exit}'
+ps aux | grep '/usr/sbin/sshd' | awk '{print $2; exit}'

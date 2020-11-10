@@ -1,0 +1,8 @@
+# whoami | sudo deluser # attempts to delete currently logged in user
+
+if [ $# -gt 0 ]
+then
+	sudo deluser $1
+else
+	echo "Error: no user specified..."
+fi

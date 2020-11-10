@@ -1,0 +1,7 @@
+ssh:
+Login as user with read/write permissions on ~/.ssh/authorized_keys
+Add generated public ssh key to ~/.ssh/authorized_keys
+ssh into vm with $> ssh <user>@<vm_ip>
+
+Connect as new user in graphical session:
+$> su - <username>

@@ -1,1 +1,1 @@
-ip r | awk '{print $9}'
+ip r | awk '!/default/{print $9}'
